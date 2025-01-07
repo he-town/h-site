@@ -1,5 +1,10 @@
+import Marquee from "solid-marquee";
+import "./Newsfeed.css"
+
 const Newsfeed = () => {
-  return <div class="container p-4">Welcome to my website!</div>;
+  return <div class="marquee">
+    <span>Welcome to my website!</span>
+    </ div>;
 };
 
 export default Newsfeed;
