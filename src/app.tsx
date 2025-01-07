@@ -10,7 +10,6 @@ export default function App() {
     <Router
       root={(props) => (
         <>
-          <Newsfeed />
           <Suspense>{props.children}</Suspense>
         </>
       )}
