@@ -1,7 +1,8 @@
+import Newsfeed from "../Newsfeed/Newsfeed";
 import "./Header.css";
 
-const Header = () => {
-  return <div class="text-8xl p-12 font-oi header-color">h-town</div>;
-};
+const Header = () => (
+  <div class="text-8xl px-12 pt-12 font-oi header-color">h-town</div>
+);
 
 export default Header;

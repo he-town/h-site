@@ -1,14 +1,14 @@
 /* Make it a marquee */
 .marquee {
-  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
   white-space: nowrap;
   overflow: hidden;
-  position: relative;
-  animation: marquee 5s linear infinite;
 }
 
 .marquee-content {
-  width: fit-content;
+  width: 100vw;
+  animation: marquee 5s linear infinite;
 }
 
 @keyframes marquee {
