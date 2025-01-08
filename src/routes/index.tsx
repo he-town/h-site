@@ -1,13 +1,13 @@
-import { A } from "@solidjs/router";
-import Counter from "~/components/Counter";
+import Body from "~/components/Body/Body";
 import Header from "~/components/Header/Header";
-import Newsfeed from "~/components/Newsfeed/Newsfeed";
 
 export default function Home() {
   return (
-    <>
+    <div class="h-screen flex flex-col">
       <Header />
-      <Newsfeed />
-    </>
+      <Body />
+    </div>
   );
 }
+
+// let body take up all the remaining space on the page
