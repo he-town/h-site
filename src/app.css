@@ -7,6 +7,12 @@
 :root {
   --background-rgb: 214, 219, 220;
   --foreground-rgb: 0, 0, 0;
+
+  --red: #ff595e;
+  --yellow: #ffca3a;
+  --green: #8ac926;
+  --blue: #1982c4;
+  --purple: #6a4c93;
 }
 
 body {
