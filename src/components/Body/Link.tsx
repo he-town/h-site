@@ -5,9 +5,12 @@ type LinkProps = {
 
 const Link = (props: LinkProps) => {
   return (
-    <div class="border-2 flex items-center justify-center font-average_sans text-6xl">
+    <a
+      href={props.linkUrl}
+      class="border-2 flex items-center justify-center font-average_sans text-6xl"
+    >
       {props.linkText}
-    </div>
+    </a>
   );
 };
 
