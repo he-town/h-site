@@ -9,5 +9,3 @@ export default function Home() {
     </div>
   );
 }
-
-// let body take up all the remaining space on the page

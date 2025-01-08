@@ -6,3 +6,5 @@ const Header = () => (
 );
 
 export default Header;
+
+// TODO make text size size down with window changing
