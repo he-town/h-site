@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         oi: ["Oi"],
+        average_sans: ["Average Sans"],
         // Add more custom font families as needed
       },
       colors: {

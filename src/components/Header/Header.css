@@ -1,5 +1,5 @@
 .header-color {
-  background-image: linear-gradient(to right, var(--red), var(--purple));
+  background-image: linear-gradient(to right, black, gray);
   color: transparent;
   background-clip: text;
   /* height: fit-content; */

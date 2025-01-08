@@ -1,10 +1,12 @@
+import Link from "../Link";
+
 const Links = () => {
   return (
     <div class="border-2 flex-1 h-full grid grid-cols-2 grid-rows-2">
-      <div class="border-2 flex items-center justify-center">link 1</div>
-      <div class="border-2">link 2</div>
-      <div class="border-2">link 3</div>
-      <div class="border-2">link 4</div>
+      <Link linkText="link 1" />
+      <Link linkText="link 2" />
+      <Link linkText="link 3" />
+      <Link linkText="link 4" />
     </div>
   );
 };
@@ -12,3 +14,4 @@ const Links = () => {
 export default Links;
 
 // TODO abstract code reuse
+// TODO should linkText be a prop or child? ...
