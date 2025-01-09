@@ -1,3 +1,5 @@
 .link {
-  font-size: clamp(2rem, 3vw + 1rem, 8rem);
+  font-size: clamp(.02rem, 2vw + 1rem, 2rem);
 }
+
+/* TODO: make font size responsive to size of div
