@@ -4,9 +4,11 @@ export type SublinkProps = {
 };
 
 const Sublink = (props: SublinkProps) => (
-  <a href={props.linkUrl}>{props.linkText}</a>
+  <a href={props.linkUrl} class="sublink">
+    {props.linkText}
+  </a>
 );
 
 export default Sublink;
 
-// todo: needs to escape flexbox conditions and be singularly a child of the "link n" div
+// todo: change style of parent element based on presence of child?
