@@ -1,14 +1,10 @@
 import "./Link.css";
-
-export type SubLinkProps = {
-  linkText: string;
-  linkUrl: string;
-};
+import Sublink, { SublinkProps } from "./Sublink";
 
 type LinkProps = {
   linkText: string;
   linkUrl?: string;
-  subLink?: SubLinkProps;
+  sublink?: SublinkProps;
 };
 
 const Link = (props: LinkProps) => {
@@ -19,7 +15,7 @@ const Link = (props: LinkProps) => {
     >
       <div>
         <div class="text-center">{props.linkText}</div>
-        {props.subLink && <div />}
+        {props.sublink && <Sublink {...props.sublink} />}
       </div>
     </a>
   );
