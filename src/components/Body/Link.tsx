@@ -19,6 +19,7 @@ const Link = (props: LinkProps) => {
     >
       <div>
         <div class="text-center">{props.linkText}</div>
+        {props.subLink && <div />}
       </div>
     </a>
   );
