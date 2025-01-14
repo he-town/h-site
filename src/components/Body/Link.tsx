@@ -21,7 +21,6 @@ const Link = (props: LinkProps) => {
   );
 };
 
-// wrapped div makes the content flow in blocks instead of inline
-// but the sublink needs to somehow "escape" the "items-center" condition
+// TODO hydration issue?
 
 export default Link;
