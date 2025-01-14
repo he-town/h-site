@@ -1,9 +1,10 @@
 import Links from "./Links";
+import PFP from "./PFP";
 
 const Body = () => {
   return (
     <div class="flex flex-1 m-4">
-      <div class="w-2/5 border-2 h-full">pfp section</div>
+      <PFP />
       <Links />
     </div>
   );
