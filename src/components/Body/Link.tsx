@@ -1,8 +1,14 @@
 import "./Link.css";
 
+export type SubLinkProps = {
+  linkText: string;
+  linkUrl: string;
+};
+
 type LinkProps = {
   linkText: string;
   linkUrl?: string;
+  subLink?: SubLinkProps;
 };
 
 const Link = (props: LinkProps) => {
@@ -11,7 +17,9 @@ const Link = (props: LinkProps) => {
       href={props.linkUrl}
       class="border-2 flex items-center justify-center font-average_sans link"
     >
-      {props.linkText}
+      <div>
+        <div class="text-center">{props.linkText}</div>
+      </div>
     </a>
   );
 };
