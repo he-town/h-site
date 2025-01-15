@@ -16,9 +16,6 @@ const Link = (props: LinkProps) => {
     >
       <div>
         <div class="text-center">{props.linkText}</div>
-        <Show when={props.sublink}>
-          {(sublink: Accessor<SublinkProps>) => <Sublink {...sublink()} />}
-        </Show>
       </div>
     </a>
   );
