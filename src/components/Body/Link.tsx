@@ -10,12 +10,12 @@ type LinkProps = {
 
 const Link = (props: LinkProps) => {
   return (
-    <div class="border-2 text-center flex items-center justify-center font-average_sans link ">
-      <a href={props.linkUrl}>
-        {props.linkText}
+    <>
+      <div class="border-2 text-center flex flex-col items-center justify-center font-average_sans link ">
+        <a href={props.linkUrl}>{props.linkText}</a>
         <Sublink linkText="hwhw" />
-      </a>
-    </div>
+      </div>
+    </>
   );
 };
 
