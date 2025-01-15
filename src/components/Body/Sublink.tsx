@@ -1,6 +1,6 @@
 export type SublinkProps = {
   linkText: string;
-  linkUrl: string;
+  linkUrl?: string;
 };
 
 const Sublink = (props: SublinkProps) => (
