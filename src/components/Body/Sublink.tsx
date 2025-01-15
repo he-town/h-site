@@ -5,7 +5,7 @@ export type SublinkProps = {
 
 const Sublink = (props: SublinkProps) => (
   <a href={props.linkUrl} class="sublink">
-    {props.linkText}
+    <div>{props.linkText}</div>
   </a>
 );
 
