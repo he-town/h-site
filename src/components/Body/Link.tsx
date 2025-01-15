@@ -1,3 +1,4 @@
+import { Accessor, Show } from "solid-js";
 import "./Link.css";
 import Sublink, { SublinkProps } from "./Sublink";
 
@@ -15,7 +16,9 @@ const Link = (props: LinkProps) => {
     >
       <div>
         <div class="text-center">{props.linkText}</div>
-        {props.sublink && <Sublink {...props.sublink} />}
+        <Show when={props.sublink}>
+          {(sublink: Accessor<SublinkProps>) => <Sublink {...sublink()} />}
+        </Show>
       </div>
     </a>
   );
