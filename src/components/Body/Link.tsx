@@ -13,7 +13,9 @@ const Link = (props: LinkProps) => {
     <>
       <div class="border-2 text-center flex flex-col items-center justify-center font-average_sans link ">
         <a href={props.linkUrl}>{props.linkText}</a>
-        <Sublink linkText="hwhw" />
+        <Show when={props.sublink}>
+          {(sublink: Accessor<SublinkProps>) => <Sublink {...sublink()} />}
+        </Show>
       </div>
     </>
   );

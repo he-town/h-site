@@ -6,7 +6,7 @@
   font-size: clamp(0.05rem, 2.32vw, 2rem);
   position: absolute;
   margin-top: clamp(0.05rem, 8vw, 6rem);
-  margin-left: clamp(0.05rem, 4vw, 7rem);
+  margin-left: clamp(0.05rem, 6vw, 7rem);
 }
 
 /* position: absolute is causing issues
