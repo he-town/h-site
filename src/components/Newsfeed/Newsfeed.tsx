@@ -11,7 +11,7 @@ const Newsfeed = () => {
   });
 
   return (
-    <div class="border-2 flex mx-4 items-center justify-between overflow-hidden">
+    <div class="wrapper border-2 mx-4">
       <div class="news-piece">Coffee</div>
       <div class="news-piece">Latte</div>
       <div class="news-piece">Espresso</div>
