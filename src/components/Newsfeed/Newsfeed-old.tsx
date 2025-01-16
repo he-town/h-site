@@ -1,5 +1,4 @@
-import Marquee from "solid-marquee";
-import "./Newsfeed.css";
+import "./Newsfeed-old.css";
 
 const Newsfeed = () => {
   return (
