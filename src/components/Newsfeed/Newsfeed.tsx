@@ -27,3 +27,5 @@ const Newsfeed = () => {
 };
 
 export default Newsfeed;
+
+// note: effect is achieved through flex-shrink: 0
