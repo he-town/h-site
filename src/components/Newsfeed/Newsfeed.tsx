@@ -1,15 +1,17 @@
 import "./News.css";
 import horizontalLoop from "./GSAPLoop";
 import { onMount } from "solid-js";
+import gsap from "gsap";
 
 const Newsfeed = () => {
   let contentRef!: HTMLDivElement;
   onMount(() => {
-    const tl = horizontalLoop(".news-piece", { repeat: -1 });
+    const news = gsap.utils.toArray(".news-piece");
+    const tl = horizontalLoop(news, { repeat: -1 });
   });
 
   return (
-    <div class="border-2 flex overflow-hidden mx-4 p-4 items-center justify-between">
+    <div class="border-2 flex mx-4 items-center justify-between overflow-hidden">
       <div class="news-piece">Coffee</div>
       <div class="news-piece">Latte</div>
       <div class="news-piece">Espresso</div>
