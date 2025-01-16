@@ -11,17 +11,16 @@ const Newsfeed = () => {
   });
 
   return (
-    <div class="wrapper border-2 mx-4">
-      <div class="news-piece">Coffee</div>
-      <div class="news-piece">Latte</div>
-      <div class="news-piece">Espresso</div>
-      <div class="news-piece">Mocha</div>
-      <div class="news-piece">Cortado</div>
-      <div class="news-piece">Macchiato</div>
-      <div class="news-piece">Flat White</div>
-      <div class="news-piece">Cold Brew</div>
-      <div class="news-piece">Nitro</div>
-      <div class="news-piece">Dunks</div>
+    <div class="wrapper mx-4 pb-2">
+      <div class="news-piece"> </div>
+      <div class="news-piece"> </div>
+      <div class="news-piece">Welcome to my page!</div>
+      <div class="news-piece"> </div>
+      <div class="news-piece"> </div>
+      <div class="news-piece">Welcome to my page!</div>
+      <div class="news-piece"> </div>
+      <div class="news-piece"> </div>
+      <div class="news-piece">Welcome to my page!</div>
     </div>
   );
 };

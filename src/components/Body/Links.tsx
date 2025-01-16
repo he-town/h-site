@@ -10,10 +10,10 @@ const Links = () => {
 
   return (
     <div class="border-2 flex-1 h-full grid grid-cols-2 grid-rows-2">
-      <Link linkText="link 1" linkUrl="/about" sublink={resumeSubLink} />
-      <Link linkText="link 2" linkUrl="/newsfeedtest" />
-      <Link linkText="link 3" />
-      <Link linkText="link 4" />
+      <Link linkText="about me" linkUrl="/about" sublink={resumeSubLink} />
+      <Link linkText="my github" linkUrl="https://github.com/he-town" />
+      <Link linkText="learn with me!" />
+      <Link linkText="reach me! ✉" />
     </div>
   );
 };
