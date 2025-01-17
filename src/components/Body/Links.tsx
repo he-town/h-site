@@ -13,7 +13,10 @@ const Links = () => {
       <Link linkText="about me" linkUrl="/about" sublink={resumeSubLink} />
       <Link linkText="my github" linkUrl="https://github.com/he-town" />
       <Link linkText="learn with me!" />
-      <Link linkText="reach me! ✉" />
+      <Link
+        linkText="reach me! ✉"
+        linkUrl="mailto:hannaheichinger@outlook.com"
+      />
     </div>
   );
 };

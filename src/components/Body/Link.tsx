@@ -10,14 +10,12 @@ type LinkProps = {
 
 const Link = (props: LinkProps) => {
   return (
-    <>
-      <div class="border-2 text-center flex flex-col items-center justify-center font-average_sans rounded-lg link ">
-        <a href={props.linkUrl}>{props.linkText}</a>
-        <Show when={props.sublink}>
-          {(sublink: Accessor<SublinkProps>) => <Sublink {...sublink()} />}
-        </Show>
-      </div>
-    </>
+    <div class="border-2 text-center flex flex-col items-center justify-center font-average_sans rounded-lg link transition-all duration-500 ease-in-out hover:bg-gray-300">
+      <a href={props.linkUrl}>{props.linkText}</a>
+      <Show when={props.sublink}>
+        {(sublink: Accessor<SublinkProps>) => <Sublink {...sublink()} />}
+      </Show>
+    </div>
   );
 };
 
