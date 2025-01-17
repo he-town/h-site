@@ -9,7 +9,7 @@ const Links = () => {
   };
 
   return (
-    <div class="flex-1 h-full grid grid-cols-2 grid-rows-2">
+    <div class="flex-1 h-full grid grid-cols-2 grid-rows-2 gap-2">
       <Link linkText="about me" linkUrl="/about" sublink={resumeSubLink} />
       <Link linkText="my github" linkUrl="https://github.com/he-town" />
       <Link linkText="learn with me!" />
