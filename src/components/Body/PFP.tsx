@@ -1,6 +1,6 @@
 const PFP = () => {
   return (
-    <div class="w-2/5 border-2 h-full">
+    <div class="w-2/5 border-2 h-full rounded-lg font-average_sans">
       <div
         class="text-center mb-8"
         style="font-size: clamp(0.05rem, 2.2vw, 2rem);"
