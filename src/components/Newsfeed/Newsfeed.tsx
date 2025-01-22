@@ -11,7 +11,7 @@ const Newsfeed = () => {
   });
 
   return (
-    <div class="wrapper mx-4 pb-2">
+    <div class="wrapper mx-4 pb-8">
       <div class="news-piece"> </div>
       <div class="news-piece"> </div>
       <div class="news-piece">Welcome to my page!</div>
